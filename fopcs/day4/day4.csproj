@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA995A01-3955-467C-AD2E-E68FB9B7EF73}</ProjectGuid>
+    <ProjectGuid>{61C82D37-F9EB-4B14-B386-25ACCCD1F6A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>fopcs_additional_exercises</RootNamespace>
-    <AssemblyName>fopcs-additional-exercises</AssemblyName>
+    <RootNamespace>day4</RootNamespace>
+    <AssemblyName>day4</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>day4.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,6 +47,19 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionF3.cs" />
+    <Compile Include="QuestionF4.cs" />
+    <Compile Include="QuestionF5a.cs" />
+    <Compile Include="QuestionF5b.cs" />
+    <Compile Include="QuestionF6.cs" />
+    <Compile Include="QuestionG1.cs" />
+    <Compile Include="QuestionG2.cs" />
+    <Compile Include="QuestionG3.cs" />
+    <Compile Include="QuestionG4.cs" />
+    <Compile Include="QuestionG5.cs" />
+    <Compile Include="QuestionG6.cs" />
+    <Compile Include="QuestionG7.cs" />
+    <Compile Include="QuestionG8.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

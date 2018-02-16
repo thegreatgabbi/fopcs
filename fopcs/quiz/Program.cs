@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fopcs_additional_exercises
+namespace quiz
 {
     class Program
     {
